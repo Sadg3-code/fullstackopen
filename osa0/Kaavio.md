@@ -27,6 +27,4 @@ sequenceDiagram
     activate server
     server-->>browser: [{content: "spam", date: "2026-09-08T13:03:31.423Z"},…]
     deactivate server    
-
-    Note right of browser: The browser executes the callback function that renders the notes
 ```
